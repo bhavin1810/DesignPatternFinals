@@ -5,6 +5,7 @@ public class users implements tweet,emotion {
      String f1,f2,f3;
      String tweet;
      String emotion;
+    
      
      public void naming(String hname)
      {
@@ -35,11 +36,11 @@ public class users implements tweet,emotion {
     	emotion = mood;
     }
     
-    void notify()
+   public void notifier()
     {
-    	System.out.println("Hey! "+f1+ "," +f2+ "and " +f3+ ".  "+handle+" just tweeted this:");
+    	System.out.println("Hey! "+f1+ "," +f2+ " and " +f3+ ". "+handle+" just tweeted this:");
     	System.out.println("          "+tweet);
-    	System.out.print("  and he's "+emotion);	
+    	System.out.print("  and he's feeling "+emotion+"\n");	
     }
   
 }   
