@@ -1,4 +1,4 @@
-
+//keeps user data and their followers and notifies followers of the user's tweet
 public class users implements tweet,emotion {
 
      String handle;

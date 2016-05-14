@@ -1,5 +1,5 @@
+//fetches data from twitteruser whether to select reaction to emotion or tweet and computes that data
 import java.util.*;
-
 public class reaction {
 
 	int choice;String reacttw;String reactem;
